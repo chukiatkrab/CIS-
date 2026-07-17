@@ -1,0 +1,49 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "CampusTiles.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "E:/ssssssssssssssssssssssssss/battle/Tiled/sampleMap.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 237.66666666666666,
+                "y": 245.66666666666666
+            }
+        },
+        "E:/ssssssssssssssssssssssssss/battle/Tiled/sampleSheet.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/ssssssssssssssssssssssssss/city/Tiled/sample-map.tmx": {
+            "scale": 1.5545454545454547,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 219.6783625730994,
+                "y": 136.05263157894737
+            }
+        }
+    },
+    "last.externalTilesetPath": "E:/CIS สอบ สหกิจ/assets/tiles",
+    "last.imagePath": "E:/CIS สอบ สหกิจ/assets/tiles",
+    "map.height": 30,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 40,
+    "openFiles": [
+    ],
+    "project": "CampusAdventure.tiled-project",
+    "recentFiles": [
+        "E:/ssssssssssssssssssssssssss/battle/Tiled/sampleMap.tmx",
+        "CampusTiles.tsx"
+    ],
+    "tileset.lastUsedFilter": "All Files (*)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      viewport meta tag:
+      width=device-width  → use the physical screen width, not a zoomed-in
+                            "virtual" width that some mobile browsers invent.
+      initial-scale=1.0   → do not zoom the page on load.
+      These two together ensure the browser reports the correct window size
+      to JavaScript, which Phaser reads to scale the canvas correctly.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KKU Freshman Adventure</title>
+    <style>
+      /*
+        Reset every element so there are no surprise margins or
+        scrollbars that would push the canvas off-centre.
+      */
+      *, *::before, *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /*
+        html and body must both be 100% tall so the Phaser canvas can
+        be centred vertically.  Using 100dvh ("dynamic viewport height")
+        avoids the mobile-browser address-bar problem where 100vh is
+        taller than the visible area.
+      */
+      html, body {
+        width: 100%;
+        height: 100dvh;   /* dvh = dynamic viewport height (safe on all browsers) */
+        background-color: #000000;
+        overflow: hidden; /* prevent scrollbars from appearing during resize */
+      }
+
+      /*
+        Phaser injects a <canvas> element into <body>.
+        display:block removes the small baseline gap browsers add below
+        inline elements.  The canvas size is controlled entirely by
+        Phaser's Scale Manager — CSS must not override it.
+      */
+      canvas {
+        display: block;
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-C5X1xkd6.js"></script>
+  </head>
+  <body>
+    <!-- Phaser attaches the <canvas> here automatically -->
+  </body>
+</html>
