@@ -1,6 +1,7 @@
 {
-    "activeFile": "",
+    "activeFile": "E:/ssssssssssssssssssssssssss/city/Tiled/sample-map.tmx",
     "expandedProjectPaths": [
+        "."
     ],
     "fileStates": {
         "CampusTiles.tsx": {
@@ -25,6 +26,9 @@
                 "x": 219.6783625730994,
                 "y": 136.05263157894737
             }
+        },
+        "E:/ssssssssssssssssssssssssss/city/Tiled/sample-sheet.tsx": {
+            "scaleInDock": 1
         }
     },
     "last.externalTilesetPath": "E:/CIS สอบ สหกิจ/assets/tiles",
@@ -34,9 +38,11 @@
     "map.tileWidth": 16,
     "map.width": 40,
     "openFiles": [
+        "E:/ssssssssssssssssssssssssss/city/Tiled/sample-map.tmx"
     ],
     "project": "CampusAdventure.tiled-project",
     "recentFiles": [
+        "E:/ssssssssssssssssssssssssss/city/Tiled/sample-map.tmx",
         "E:/ssssssssssssssssssssssssss/battle/Tiled/sampleMap.tmx",
         "CampusTiles.tsx"
     ],
